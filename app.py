@@ -2,20 +2,20 @@ import streamlit as st
 from PIL import Image
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Egezon Baruti"
+PAGE_TITLE = "Digital CV | Ubejd Shahini"
 PAGE_ICON = ":wave:"
-NAME = "Egezon Baruti"
+NAME = "Ubejd Shahini"
 DESCRIPTION = """
 Data Scientist specializing in spatial-sensor data and data-driven decision-making.
 """
 
-EMAIL = "egzonbaruti@yahoo.com"
-LINKEDIN_URL = "https://www.linkedin.com/in/egezonbaruti"
+EMAIL = "ubejd.shahini@gmail.com"
+LINKEDIN_URL = "https://www.linkedin.com/in/ubejd-shahini/"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/egezon_cv_12_2024.pdf"
+resume_file = "assets/ubejd_cv_12_2024.pdf"
 profile_pic_file = "assets/profile-pic.png"
 
 with open(resume_file, "rb") as pdf_file:
