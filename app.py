@@ -6,7 +6,7 @@ PAGE_TITLE = "Digital CV | Ubejd Shahini"
 PAGE_ICON = ":wave:"
 NAME = "Ubejd Shahini"
 DESCRIPTION = """
-Data Scientist specializing in spatial-sensor data and data-driven decision-making.
+Data Scientist in spatial-sensor data and data-driven decision-making.
 """
 
 EMAIL = "ubejd.shahini@gmail.com"
