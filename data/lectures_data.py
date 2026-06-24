@@ -70,15 +70,68 @@ LECTURES = [
             },
         ],
     },
-    # --- Add future lectures below as new dicts, e.g.: ---
-    # {
-    #     "number": 13,
-    #     "title": "Lecture 13 Title",
-    #     "topics": ["Topic A", "Topic B"],
-    #     "sections": [
-    #         {"heading": "Section Heading", "content": "Section text..."},
-    #     ],
-    # },
+    {
+        "number": 13,
+        "title": "Practical SQL — SQLite, JOINs, CTEs & More",
+        "topics": ["SQLite", "JOINs", "CTEs", "Regex", "T-SQL vs PL/SQL"],
+        "sections": [
+            {
+                "heading": "SQLite & DB Browser",
+                "content": (
+                    "We worked with the SQLite Sample Database, which provides realistic "
+                    "data for practicing SQL queries and understanding database structures. "
+                    "DB Browser for SQLite (SQLiteBrowser) was introduced as a graphical "
+                    "interface that allows users to create, view, edit, and manage SQLite "
+                    "databases without using command-line tools."
+                ),
+            },
+            {
+                "heading": "Using SQLite",
+                "content": (
+                    "The lecture covered how to use the SQLite program, including opening "
+                    "databases, browsing tables, running SQL queries, and viewing query "
+                    "results."
+                ),
+            },
+            {
+                "heading": "JOIN Operations",
+                "content": (
+                    "Different types of JOIN operations were discussed and practiced to "
+                    "combine data from multiple tables based on related columns. These "
+                    "joins are essential for retrieving meaningful information from "
+                    "relational databases."
+                ),
+            },
+            {
+                "heading": "Regex101",
+                "content": (
+                    "We explored Regex101, an online tool used to test and understand "
+                    "regular expressions. Regular expressions help users search, validate, "
+                    "and manipulate text patterns, making them useful for data filtering "
+                    "and cleaning tasks."
+                ),
+            },
+            {
+                "heading": "Common Table Expressions (CTEs)",
+                "content": (
+                    "CTEs allow temporary result sets to be created within a query, making "
+                    "complex SQL statements easier to read, organize, and maintain. They "
+                    "can simplify nested queries and improve overall query structure."
+                ),
+            },
+            {
+                "heading": "T-SQL vs PL/SQL",
+                "content": (
+                    "T-SQL (Transact-SQL) is Microsoft's extension of SQL used mainly with "
+                    "SQL Server, while PL/SQL is Oracle's procedural extension of SQL. Both "
+                    "provide programming features such as variables, loops, conditions, and "
+                    "error handling, but they target different database systems and have "
+                    "different syntax and capabilities."
+                ),
+            },
+        ],
+    },
+    # --- Add future lectures below as new dicts ---
 ]
 
 
